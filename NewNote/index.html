@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./images/icons8-notes-16.png">
+</head>
+<body>
+    <section class="head">
+        <h1>Notes</h1>
+        <button class="Deleteallnotes" onclick="DeleteAll()">Delete All notes</button>
+    </section>
+    <section class="note">
+        <!-- <div class="notehead">
+            <h2>Note 1</h2>
+            <button class="editbutton">Edit</button>
+            <button onclick="Savenote()" class="savebutton">Save</button>
+            <div class="description">
+                <p id="noteContent">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <button>Delete</button>
+            </div>
+        </div> -->
+    </section>
+    <section class="input">
+        <!-- <h1>For Creating a New Note</h1> -->
+        <input type="text" placeholder="Enter Title" id="Title" required>
+        <textarea name="" id="textarea" cols="30" rows="10" required>
+        </textarea>
+        <button class="submitbutton">Create Note</button>
+        <button class="savebutton">Save</button>
+
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
